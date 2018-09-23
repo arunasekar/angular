@@ -1,0 +1,16 @@
+
+  .test li {
+    cursor: pointer;
+    position: relative;
+    background-color: gold;
+    margin:6px;
+    padding:10px;
+    height:17px;
+    width:20%;
+   }
+  .test li.selected:hover
+  {
+    background-color: pink;
+
+  }
+  

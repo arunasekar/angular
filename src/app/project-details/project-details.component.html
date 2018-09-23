@@ -1,0 +1,38 @@
+<!-- <div *ngIf="details">
+
+  <h2>{{details.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{details.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="details.name" placeholder="name">
+    </label>
+  </div> -->
+
+
+ <div *ngIf="proj">
+
+    <h2>{{proj.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{proj.id}}</div>
+    <div>
+      name:
+        <input [(ngModel)]="proj.name" placeholder="name">
+      
+    </div>
+    <div><span>marks: </span>{{proj.marks}}</div>
+    <div><span>Rank: </span>{{proj.Rank}}</div>
+  
+  </div>  
+  
+<!-- <div *ngIf="selectedPro">
+
+    <h2>{{selectedPro.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{selectedPro.id}}</div>
+    <div>
+      <label>name:
+        <input [(ngModel)]="selectedPro.name" placeholder="name">
+      </label>
+    </div>
+    <div><span>marks: </span>{{selectedPro.marks}}</div>
+    <div><span>Rank: </span>{{selectedPro.Rank}}</div>
+  
+  </div> -->
